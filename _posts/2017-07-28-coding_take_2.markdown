@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Coding Take 2"
-date:   2017-07-28 21:37:17 +0000
+title:  "The beginning"
+date:   2017-07-28 17:37:18 -0400
 ---
 
 
