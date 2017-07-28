@@ -1,10 +1,10 @@
 # Site settings
-title: Coding by the Sea
+title: Coding Take Two
 header-img: img/home-bg.png
 email: kk504408@gmail.com
 copyright_name: Kkelly22
 description: > # this means to ignore newlines until "baseurl:"
-  Where logic meets creativity
+  Trying my hand at programming...again
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  Kkelly22
