@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "HTML5 - The Building Blocks""
-date:   2017-08-25 21:18:09 +0000
+title:  "HTML5 - The Building Blocks"
+date:   2017-08-25 17:18:10 -0400
 ---
 
 
