@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Choreizo - Spice Up Your Chores"
-date:       2018-08-15 21:25:38 +0000
+date:       2018-08-15 17:25:38 -0400
 permalink:  choreizo_-_spice_up_your_chores
 ---
 
