@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Surprising Complexities with React/Redux"
-date:       2019-05-04 19:06:39 +0000
+date:       2019-05-04 15:06:40 -0400
 permalink:  surprising_complexities_with_react_redux
 ---
 
