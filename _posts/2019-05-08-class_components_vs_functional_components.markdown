@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Class Components vs Functional Components"
-date:       2019-05-08 23:55:27 +0000
+date:       2019-05-08 19:55:28 -0400
 permalink:  class_components_vs_functional_components
 ---
 
@@ -10,18 +10,20 @@ There are two types of components we can create - one is a Class Component, and 
 
 First and foremost - syntax:
 
-**Class:
+Class:
 
+```
 class TestComponent extends React.Component {
     render() {
 		    return something
 		}
-}**
+}
+```
 
 
-**Functional:
+Functional:
 
-const TestComponent = props => display something**
+`const TestComponent = props => display something`
 
 
 At first glance, we see that a class component extends React.Component.  This means a class component is capable of maintaining state.  A functional component is stateless.  If your end game is to simply display data that has been passed down as props, then a functional component is the right choice.  All other scenarios would require the use of a class component.  These class components have access to maintaining state and also lifecycle hooks meaning a lot more functionality is built in.
