@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Breaking Down Storage Technologies"
-date:       2019-06-09 21:36:24 +0000
+date:       2019-06-09 17:36:24 -0400
 permalink:  breaking_down_storage_technologies
 ---
 
@@ -20,10 +20,10 @@ Cons: Limited scalability, slow performance, storage cost
 
 An example of a relational database is as follows:
 
-BOOK TABLE:
-BOOK ID
-BOOK NAME
-BOOK EDITION
+BOOK TABLE:  
+BOOK ID  
+BOOK NAME  
+BOOK EDITION  
 
 AUTHOR TABLE:
 AUTHOR ID
