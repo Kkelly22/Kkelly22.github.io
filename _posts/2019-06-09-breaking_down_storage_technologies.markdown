@@ -6,7 +6,7 @@ permalink:  breaking_down_storage_technologies
 ---
 
 
-Storage technology has evolved many times over through the years, and with this evolution comes a bigger variety of tools in our programming toolbox.  With this variety, though, comes decisions.  Which storage technology is right for my data?
+Storage technology has evolved many times over through the years, and with this evolution comes a bigger variety of tools in our programming toolbox.  With this variety, though, comes decisions.  Which storage technology is the best choice for optimizing our data needs?
 
 To answer this question, we need to start by locking down our understanding of some of the more prominent storage technologies available today.  Once we understand the pros and cons of each technology, we have to understand the nature of our data.  Armed with this knowledge, we can design a data storage system that will mature gracefully with the evolution of the application itself.
 
@@ -34,20 +34,20 @@ BOOK ID
 AUTHOR ID
 ```
 
-If I want to find a particular book by ID, all I need to do is employ a ".find" method which will utilize a SQL "SELECT" statement to find and return the data i'm looking for.  The use of SQL/ORMs make this method much more attractive than it's predecessor. 
+If we want to find a particular book by ID, all we need to do is employ a ".find" method which will utilize a SQL "SELECT" statement to find and return the data we're looking for.  The use of SQL/ORMs make this method much more attractive than it's predecessor. 
 
-Like with file based systems, this system also allows for vertical scalability.  I can continually purchase more storage space if I run out, however this is also not ideal for big data.  At a certain point, storage on a single server becomes costly and extremely latent.  
+Like with file based systems, this system also allows for vertical scalability.  We can continually purchase more storage space if we run out, however this is also not ideal for big data.  At a certain point, storage on a single server becomes costly and extremely latent.  
 
-* Pros: Good for frequent CRUD on a manageable level of consistent data
+* Pros: Good for frequent CRUD operations (Create, Read, Update, Delete) on a manageable level of consistent data
 * Cons: ORM Impedence Mismatching, must design referential integrity at its core
 
 3. **Non-Relational Databases**.  This method of storage is the newest method of storage, and offers the most flexibility and scalability compared to both previously mentioned storage technologies.  A non-relational database stores data in a JSON document instead of tables and rows.  An example of a non-relational database object is as follows:
 
 {"Books" : [ { Book ID, Book Name, Book Edition, Author ID, Author Name } , ... ] }
 
-The object above represents a key/value JSON object.  This object is structured in a way where I can add more objects to the array containing my values, but I can also add more keys (representing new data needing to be stored) anywhere I need.  I can adapt to changing data demands very easily. 
+The object above represents a key/value JSON object.  This object is structured in a way where we can add more objects to the array containing values, but we can also add more keys (representing new data needing to be stored) anywhere we need.  We can adapt to changing data demands very easily. 
 
-This system also enables us to scale both vertically and horizontally.  I can purchase more storage on a single server like before, but given that my data is likely unstructured and does not rely on 'joins',  I can spread my storage across multiple servers.  This makes non-relational databases a great fit for big, unstructured data.
+This system also enables us to scale both vertically and horizontally.  We can purchase more storage on a single server like before, but given that our data is likely unstructured and does not rely on 'joins',  we can spread our storage across multiple servers.  This makes non-relational databases a great fit for big, unstructured data.
 
 * Pros: Scalability with big data, high throughput and low latency, easily accessible API
 * Cons: Extra processing efforts, lack of structure can become complicated to manage
