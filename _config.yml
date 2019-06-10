@@ -1,15 +1,14 @@
 # Site settings
-title: Coding Take Two
+author: Kaitlin Kelly
+title: Coding By The Sea
 header-img: img/home-bg.png
 email: kk504408@gmail.com
-copyright_name: Kkelly22
+copyright_name: Kaitlin Kelly
 description: > # this means to ignore newlines until "baseurl:"
-  Trying my hand at programming...again
+  If you can't blog about it to a 4 year old, do you really know it?
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  Kkelly22
-learn_profile: Kkelly22
-email_username: kk504408@gmail.com
 
 # Build settings
 markdown: kramdown
