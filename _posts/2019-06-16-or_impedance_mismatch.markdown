@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "OR Impedance Mismatch"
-date:       2019-06-16 23:46:35 +0000
+date:       2019-06-16 19:46:35 -0400
 permalink:  or_impedance_mismatch
 ---
 
