@@ -20,5 +20,5 @@ Associations.  OO Programming uses associations as one-directional references, w
 
 Data Navigation.  In OO Programming you access data by hopping through connected associations, whereas in a relational table you use SQL queries and joins to connect the data you are interested in retrieving.  The latter is a much more efficient way of retrieving data.
 
-As I said earlier, these differences are subtle.  If you don't look out for each issue, you may look over it entirely.  However, being aware of these subtleties will help us build a database structure will less flaws, meaning less bugs.
+As I said earlier, these differences are subtle.  If you don't look out for each issue, you may look over it entirely.  However, being aware of these subtleties will help us build a database structure with less flaws, meaning less bugs.
 
