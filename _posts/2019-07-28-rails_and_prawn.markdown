@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails and Prawn"
-date:       2019-07-28 21:45:06 +0000
+date:       2019-07-28 17:45:06 -0400
 permalink:  rails_and_prawn
 ---
 
