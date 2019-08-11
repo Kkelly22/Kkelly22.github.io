@@ -27,11 +27,11 @@ class UserMailer < ApplicationMailer
 	def welcome_email
     	@user = params[:user]
     	mail(to: @user.email, subject: 'Welcome to Your Wedding Itinerary')
-  	end
+  end
 end
 ```
 
-In the example above, I am sending am email from my personal email to the users email.  Obviously, for this to work the user will need to have an "email" attribute in our database.  I will place a 'required' validation on this attribute in my model/user.rb file.
+In the example above, I am sending an email from my personal email to the user's email.  Obviously, for this to work the user will need to have an "email" attribute in our database.  I will place a 'required' validation on this attribute in my model/user.rb file.
 
 To set up the content of my email, I set up a view within views/user_mailer called "welcome.text.erb":
 
