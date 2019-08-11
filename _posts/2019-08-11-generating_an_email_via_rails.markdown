@@ -1,13 +1,13 @@
 ---
 layout: post
 title:      "Generating an Email via Rails"
-date:       2019-08-11 16:20:46 +0000
+date:       2019-08-11 12:20:47 -0400
 permalink:  generating_an_email_via_rails
 ---
 
 I was recently asked to build out a piece of functionality that I had never done before - sending an automated email after filling out a form.  To my surprise (but not really), Rails had this functionality already built in.  In this blog post, we're going to walk through setting up a basic mailer.
 
-First, utilizer our generator to create the files we need.  In my example, my mailer will be tied to a user, so I will call it "UserMailer".  My generator command will be "rails generate mailer UserMailer".  This will give me the following files:
+First, let's utilize our generator to create the files we need.  In my example, my mailer will be tied to a user, so I will call it "UserMailer".  My generator command will be "rails generate mailer UserMailer".  This will give me the following files:
 
 ```
       create  app/mailers/user_mailer.rb
