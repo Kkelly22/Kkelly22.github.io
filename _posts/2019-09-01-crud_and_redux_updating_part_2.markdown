@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CRUD and Redux: Updating Part 2"
-date:       2019-09-01 22:51:44 +0000
+date:       2019-09-01 18:51:45 -0400
 permalink:  crud_and_redux_updating_part_2
 ---
 
