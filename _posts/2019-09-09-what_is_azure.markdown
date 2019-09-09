@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "What is Azure?"
-date:       2019-09-09 18:49:43 +0000
+date:       2019-09-09 14:49:44 -0400
 permalink:  what_is_azure
 ---
 
