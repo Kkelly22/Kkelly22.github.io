@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Development vs. Design"
-date:       2019-10-06 16:08:13 +0000
+date:       2019-10-06 12:08:14 -0400
 permalink:  development_vs_design
 ---
 
@@ -10,7 +10,7 @@ For some time now I've been slowly but steadily developing my Wedding Itinerary 
 
 In my opinion, the fact that I was able to identify when a user experience is lacking is a good sign.  I acknowledged my observation and took to Google.  I Googled "how to enhance look of CSS" and quickly found a [blog](https://24ways.org/2012/how-to-make-your-site-look-half-decent/) that echoed my sentiments.  Although there are many key takeaways from this blog, there are two resources that will no doubt make my website 10x better in about 5 minutes.
 
-1.  Font Pairing.  This is something I attempted to tackle myself, but [this resource]https://designshack.net/articles/css/10-great-google-font-combinations-you-can-copy/) does an even better job for you. 
+1.  Font Pairing.  This is something I attempted to tackle myself, but [this resource](https://designshack.net/articles/css/10-great-google-font-combinations-you-can-copy/) does an even better job for you. 
 2.  Texture.  This is something I could innately feel my application was lacking, but I didn't know how to go about adding it until I found [this resource](https://www.toptal.com/designers/subtlepatterns/).
 
 I hope this quick read helps anyone experiencing the same thing!
