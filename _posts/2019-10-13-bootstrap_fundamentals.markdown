@@ -35,7 +35,7 @@ I'd like to set up a drop down menu bar for my site navigation.  Looking to Boot
 <Link to='/find'>Find Wedding</Link>
 ```
 
-In order to turn this into a button with down capability, I implement the following:
+In order to turn this into a button with dropdown capability, I implement the following:
 
 ```
 <div class="dropdown">
@@ -52,7 +52,7 @@ In order to turn this into a button with down capability, I implement the follow
 
 By enclosing my Link tags within a "dropdown-menu" div, adding a button with a class "btn btn-secondary dropdown-toggle", and enclosing this code all within a class of "dropdown", I utilize Bootstrap's pre-set js and css to create a dropdown button.
 
-Please note above that popper.js is required for this to work.  I also utilized font-awesome to display the bars icon for my drop down button.
+Please note above that popper.js is required for this to work.  I also utilized font-awesome to display the bars icon for my dropdown button.
 
 And that's it!  I now have an interactive, modern looking button to control my navigation.
 
