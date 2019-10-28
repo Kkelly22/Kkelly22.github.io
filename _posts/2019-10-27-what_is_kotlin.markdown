@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "What is Kotlin?"
-date:       2019-10-28 03:27:26 +0000
+date:       2019-10-27 23:27:27 -0400
 permalink:  what_is_kotlin
 ---
 
@@ -12,7 +12,7 @@ From what I can gather, Kotlin is designed to interperate Java.  Per Wikipedia, 
 
 The language is a fully object oriented language while still fully interoperable with Java code.  This allows companys to make a gradual migration from Java to Kotlin.
 
-Some of the differences are highlighted below:
+Some of the differences are highlighted below per Wikipedia:
 
 1) Semicolons are optional as a statement terminator; in most cases a newline is sufficient for the compiler to deduce that the statement has ended.
 
