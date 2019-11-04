@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "OAuth vs SAML"
-date:       2019-11-04 00:48:29 +0000
+date:       2019-11-03 19:48:30 -0500
 permalink:  oauth_vs_saml
 ---
 
